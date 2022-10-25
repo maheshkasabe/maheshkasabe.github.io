@@ -57,6 +57,11 @@ function Header() {
               Contact
             </NavLink>
           </li>
+          <li>
+            <a href="https://github.com/Mahesh-Kasabe/Resume/blob/master/Resume.pdf" onClick={toggleClass}>
+              Resume
+            </a>
+          </li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>

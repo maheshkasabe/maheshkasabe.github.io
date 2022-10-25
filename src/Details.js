@@ -22,6 +22,8 @@ import aws from "./assets/techstack/aws.png";
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.png";
+import projectImage4 from "./assets/projects/project4.png";
+import projectImage5 from "./assets/projects/project5.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -113,12 +115,28 @@ export const projectDetails = [
     githubLink: "https://github.com/Mahesh-Kasabe/K-Dash",
   },
   {
-    title: "Let's Meet",
+    title: "Let's Meet (Devops)",
     image: projectImage3,
     description: `Let's Meet is a One-O-One Video calling application with some intigrated features such as Live Chatting and Sending invitation through Email`,
     techstack: "Node.js , ReactJS , Express , EmailJS , JavaScript , WebRTC , Socket.io",
     previewLink: "https://letsmeetapp.netlify.app/",
-    githubLink: "https://github.com/Mahesh-Kasabe/LetsMeet",
+    githubLink: "https://github.com/Mahesh-Kasabe/Lets-Meet-Devops",
+  },
+  {
+    title: "Coinbase",
+    image: projectImage4,
+    description: `Build with React, JavaScript, and Firebase. Real-time data from Coinranking API.`,
+    techstack: "ReactJS, Firebase, ChartJS, Javascript, CoinStats API ",
+    previewLink: "https://coinbase-c0f7f.web.app/",
+    githubLink: "https://github.com/Mahesh-Kasabe/Coinbase",
+  },
+  {
+    title: "Ecommerce",
+    image: projectImage5,
+    description: `An Ecommerce store made with ReactJS and Javascript and intigrated with stripe for payment gateway`,
+    techstack: "React , Firebase , Stripe",
+    previewLink: "https://ecommerce-6bffc.web.app/",
+    githubLink: "https://github.com/Mahesh-Kasabe/Ecommerce",
   },
 ];
 
