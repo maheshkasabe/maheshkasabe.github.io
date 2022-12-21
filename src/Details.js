@@ -28,9 +28,9 @@ import projectImage5 from "./assets/projects/project5.png";
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Mahesh Kasbe",
-  tagline: "I Code and Deploy stuff",
+  tagline: "I Code and Deploy stuff on Cloud",
   img: profile,
-  about: `I had always been excited to be tech guy which eventually made me a open-source contributor and devops engineer , i am learning system design and machine learning now with some touch of Data Structure and alogorithms`,
+  about: `Mahesh is an Open Source and Devops Enthusiast . He loves to contribute to opensource projects and Make people understand the underline concepts of DevOps and System DesignMahesh is an Open Source and Devops Enthusiast . He loves to contribute to opensource projects and Make people understand the underline concepts of DevOps and System Design`,
 };
 
 // Enter your Social Media URLs here
@@ -58,19 +58,19 @@ export const workDetails = [
     Duration: "Sep 2021 - Dec 2021",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Developer Advocate",
+    Company: `Napptive`,
+    Location: "Remote",
+    Type: "Developer Advocate",
+    Duration: "Jan 2022 - Present",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Bachelor in Computer Science",
-    Company: `SPIT`,
+    Position: "Bachelor of Science in Statistics ",
+    Company: `University of Mumbai`,
     Location: "Mumbai",
     Type: "Full Time",
     Duration: "Aug 2021 - Aug 2024",
@@ -103,7 +103,7 @@ export const projectDetails = [
     image: projectImage1,
     description: `A Microservices  Bug Tracker Application implemented using best Devops Practices .`,
     techstack: "SpringBoot , ELK , RabbitMQ , ReactJS , Docker , Kubernetes , Terraform , Argocd , Github-Actions , Javascript , Java  ",
-    previewLink: "https://google.com",
+    previewLink: "https://github.com/Mahesh-Kasabe/Microservice-Devops-Project",
     githubLink: "https://github.com/Mahesh-Kasabe/Microservice-Devops-Project",
   },
   {
@@ -111,7 +111,7 @@ export const projectDetails = [
     image: projectImage2,
     description: `Build with React & JavaScript. Real-time Browser-based Monitoring of Your Kubernetes Cluster , Nodes with Kubernetes API.`,
     techstack: "Javascript , ReactJS , HTML , CSS , Kubernetes API , ChartJS ",
-    previewLink: "https://google.com",
+    previewLink: "https://user-images.githubusercontent.com/60398112/208110242-b3ecad1d-2a4e-4a4d-b79d-b3cc3c7e33ee.mp4",
     githubLink: "https://github.com/Mahesh-Kasabe/K-Dash",
   },
   {
