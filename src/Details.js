@@ -48,7 +48,7 @@ export const workDetails = [
     Company: `Company Name here`,
     Location: "Remote",
     Type: "Insternship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jan 2023 - Present",
   },
   {
     Position: "Developer",
