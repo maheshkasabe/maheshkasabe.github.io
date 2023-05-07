@@ -1,4 +1,4 @@
 # Portfolio
 #### Live Demo https://maheshkasabe.github.io/
 
-![alt tag](https://github.com/Mahesh-Kasabe/maheshkasabe.github.io/blob/master/preview.png?raw=true)
+![alt tag](https://github.com/maheshkasabe/maheshkasabe.github.io/blob/master/preview.png?raw=true)
