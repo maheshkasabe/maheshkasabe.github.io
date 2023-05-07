@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.13ba8868.css",
-    "main.js": "/static/js/main.473d24a8.js",
+    "main.js": "/static/js/main.01fd643d.js",
     "static/media/project5.png": "/static/media/project5.151e9bc990caefe82777.png",
     "static/media/docker.png": "/static/media/docker.4c91b7b5a5b0d7cbf53d.png",
     "static/media/project2.jpg": "/static/media/project2.2fb4066cc7c9f3bcb8c8.jpg",
@@ -10,21 +10,21 @@
     "static/media/profile.png": "/static/media/profile.1a02d709a82934fa7830.png",
     "static/media/project3.png": "/static/media/project3.c22a679727142c234823.png",
     "static/media/jenekins.png": "/static/media/jenekins.bf68bce89db56ae70453.png",
-    "static/media/aws.png": "/static/media/aws.62a8a6b163dff0172db3.png",
     "static/media/terraform.png": "/static/media/terraform.5fcb4a673e104a97c176.png",
+    "static/media/aws.png": "/static/media/aws.b621fa1c8b9dd70cbb35.png",
     "static/media/mongodb.png": "/static/media/mongodb.39d6d90e7f8eca71c66f.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/kubernetes.png": "/static/media/kubernetes.f568a0a722cbf5db0d70.png",
+    "static/media/go.png": "/static/media/go.02bc982b6d5375664482.png",
     "static/media/springboot.png": "/static/media/springboot.c90c06c30a45770a5d47.png",
     "static/media/actions.png": "/static/media/actions.a3e48edf2f3100ddeda0.png",
     "static/media/firebase.png": "/static/media/firebase.a4156cb67d6d0676cffc.png",
-    "static/media/hashnode.svg": "/static/media/hashnode.236f937100c565e542d42f145fecabc6.svg",
     "index.html": "/index.html",
     "main.13ba8868.css.map": "/static/css/main.13ba8868.css.map",
-    "main.473d24a8.js.map": "/static/js/main.473d24a8.js.map"
+    "main.01fd643d.js.map": "/static/js/main.01fd643d.js.map"
   },
   "entrypoints": [
     "static/css/main.13ba8868.css",
-    "static/js/main.473d24a8.js"
+    "static/js/main.01fd643d.js"
   ]
 }
