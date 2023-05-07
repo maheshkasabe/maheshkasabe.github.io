@@ -52,14 +52,19 @@ function Header() {
               Projects
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <a href="https://github.com/Mahesh-Kasabe/Resume/blob/master/Resume.pdf" onClick={toggleClass}>
               Resume
+            </a>
+          </li>
+          <li>
+            <a href="https://maheshkasbe.hashnode.dev" onClick={toggleClass}>
+              Blog
             </a>
           </li>
         </ul>

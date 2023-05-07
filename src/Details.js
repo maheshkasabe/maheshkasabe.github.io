@@ -17,6 +17,7 @@ import terraform from "./assets/techstack/terraform.png";
 import mongodb from "./assets/techstack/mongodb.png";
 import firebase from "./assets/techstack/firebase.png";
 import aws from "./assets/techstack/aws.png";
+import go from "./assets/techstack/go.png"
 
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png";
@@ -30,13 +31,19 @@ export const personalDetails = {
   name: "Mahesh Kasbe",
   tagline: "I Code and Deploy stuff on Cloud",
   img: profile,
-  about: `Mahesh is an Open Source and Devops Enthusiast . He loves to contribute to opensource projects and Make people understand the underline concepts of DevOps and System DesignMahesh is an Open Source and Devops Enthusiast . He loves to contribute to opensource projects and Make people understand the underline concepts of DevOps and System Design`,
+  about: `Mahesh is a passionate Open Source Contributor and DevOps Enthusiast, with extensive experience in Java and Golang. His curiosity and eagerness to learn have led him to explore various cloud native tools, which he enjoys sharing with others through his Personal Blog.
+
+  Since his freshmen year, Mahesh has been contributing to the open source community, where he has gained valuable experience in Microservices and Systems Design. He is also adept at solving complex Data Structures and Algorithms questions, with a proven track record on platforms like Leetcode and Geeksforgeeks.
+  
+  Mahesh has a knack for explaining the underlying concepts of DevOps tools and System Design, which has made him a sought-after speaker at various conferences and meetups. He has also dabbled in Developer Advocacy and Software Engineering, where he has gained valuable experience and skills.
+  
+  Currently, Mahesh is seeking opportunities in roles such as Software Engineer, Developer Advocate or DevOps Engineer, where he can continue to contribute his expertise and passion for technology.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/maheshkasbe",
-  github: "https://www.github.com/mahesh-kasabe",
+  github: "https://www.github.com/maheshkasabe",
   twitter: "https://twitter.com/maheshstwt",
   instagram: "https://www.instagram.com/",
 };
@@ -44,25 +51,39 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Developer",
-    Company: `Company Name here`,
+    Position: "Mentee",
+    Company: `Google Summer of Code - NRNB`,
     Location: "Remote",
     Type: "Insternship",
-    Duration: "Jan 2023 - Present",
+    Duration: "May 2023 - Sept 2023",
   },
   {
-    Position: "Developer",
-    Company: `Company Name here`,
+    Position: "Open Source Developer",
+    Company: `Tracetest - Kubeshop`,
     Location: "Remote",
-    Type: "Internship",
-    Duration: "Jan 2022 - Present",
+    Type: "Insternship",
+    Duration: "March 2023 - Dec 2023",
   },
   {
     Position: "Developer Advocate",
     Company: `Napptive`,
     Location: "Remote",
-    Type: "Developer Advocate",
-    Duration: "Jan 2022 - Present",
+    Type: "Internship",
+    Duration: "Jan 2023 - May 2023",
+  },
+  {
+    Position: "Full Stack Developer",
+    Company: `Mezchip`,
+    Location: "Remote",
+    Type: "Internship",
+    Duration: "Aug 2022 - Oct 2022",
+  },
+  {
+    Position: "Freelance Software Developer",
+    Company: ``,
+    Location: "Remote",
+    Type: "Self-employed",
+    Duration: "Aug 2021 - Jan 2022",
   },
 ];
 
@@ -93,7 +114,8 @@ export const techStackDetails = {
   terraform: terraform,
   mongodb: mongodb,
   firebase: firebase,
-  aws: aws
+  aws: aws,
+  go: go
 };
 
 // Enter your Project Details here
@@ -103,8 +125,8 @@ export const projectDetails = [
     image: projectImage1,
     description: `A Microservices  Bug Tracker Application implemented using best Devops Practices .`,
     techstack: "SpringBoot , ELK , RabbitMQ , ReactJS , Docker , Kubernetes , Terraform , Argocd , Github-Actions , Javascript , Java  ",
-    previewLink: "https://github.com/Mahesh-Kasabe/Microservice-Devops-Project",
-    githubLink: "https://github.com/Mahesh-Kasabe/Microservice-Devops-Project",
+    previewLink: "https://github.com/maheshkasabe/Microservice-Bug-Tracker",
+    githubLink: "https://github.com/maheshkasabe/Microservice-Bug-Tracker",
   },
   {
     title: "K-Dash",
@@ -112,7 +134,7 @@ export const projectDetails = [
     description: `Build with React & JavaScript. Real-time Browser-based Monitoring of Your Kubernetes Cluster , Nodes with Kubernetes API.`,
     techstack: "Javascript , ReactJS , HTML , CSS , Kubernetes API , ChartJS ",
     previewLink: "https://user-images.githubusercontent.com/60398112/208110242-b3ecad1d-2a4e-4a4d-b79d-b3cc3c7e33ee.mp4",
-    githubLink: "https://github.com/Mahesh-Kasabe/K-Dash",
+    githubLink: "https://github.com/maheshkasabe/K-Dash",
   },
   {
     title: "Let's Meet (Devops)",
@@ -120,7 +142,7 @@ export const projectDetails = [
     description: `Let's Meet is a One-O-One Video calling application with some intigrated features such as Live Chatting and Sending invitation through Email`,
     techstack: "Node.js , ReactJS , Express , EmailJS , JavaScript , WebRTC , Socket.io",
     previewLink: "https://letsmeetapp.netlify.app/",
-    githubLink: "https://github.com/Mahesh-Kasabe/Lets-Meet-Devops",
+    githubLink: "https://github.com/maheshkasabe/Lets-Meet-Devops",
   },
   {
     title: "Coinbase",
@@ -128,7 +150,7 @@ export const projectDetails = [
     description: `Build with React, JavaScript, and Firebase. Real-time data from Coinranking API.`,
     techstack: "ReactJS, Firebase, ChartJS, Javascript, CoinStats API ",
     previewLink: "https://coinbase-c0f7f.web.app/",
-    githubLink: "https://github.com/Mahesh-Kasabe/Coinbase",
+    githubLink: "https://github.com/maheshkasabe/Coinbase",
   },
   {
     title: "Ecommerce",
@@ -136,12 +158,12 @@ export const projectDetails = [
     description: `An Ecommerce store made with ReactJS and Javascript and intigrated with stripe for payment gateway`,
     techstack: "React , Firebase , Stripe",
     previewLink: "https://ecommerce-6bffc.web.app/",
-    githubLink: "https://github.com/Mahesh-Kasabe/Ecommerce",
+    githubLink: "https://github.com/maheshkasabe/Ecommerce",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "maheshkasbe010@gmail.com",
+  email: "abc@gmail.com",
   phone: "+91 12345 67890",
 };

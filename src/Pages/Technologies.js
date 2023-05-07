@@ -18,6 +18,7 @@ function Technologies() {
     aws,
     npm,
     postman,
+    go,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -35,6 +36,7 @@ function Technologies() {
         <img src={java} title="Java" alt="" />
         <img src={springboot} title="SpringBoot" alt="" />
         <img src={python} title="Python" alt="" />
+        <img src={go} title="Go" alt="" />
 
       </section>
       <section>
@@ -53,6 +55,7 @@ function Technologies() {
         <img src={aws} title="aws" alt="Postman" />
         <img src={mongodb} title="MongoDB" alt="" />
         <img src={firebase} title="Firebase" alt="" />
+
 
 
       </section>
