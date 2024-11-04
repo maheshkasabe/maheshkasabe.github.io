@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
+    <header className="container mx-auto md:flex justify-center py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -43,11 +43,6 @@ function Header() {
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
             <NavLink to="/projects" onClick={toggleClass}>
               Projects
             </NavLink>
@@ -57,11 +52,11 @@ function Header() {
               Contact
             </NavLink>
           </li> */}
-          <li>
+          {/* <li>
             <a href="https://github.com/Mahesh-Kasabe/Resume/blob/master/Resume.pdf" onClick={toggleClass}>
               Resume
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="https://maheshkasbe.hashnode.dev" onClick={toggleClass}>
               Blog
