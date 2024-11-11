@@ -58,7 +58,7 @@ function Header() {
             </a>
           </li> */}
           <li>
-            <a href="https://maheshkasbe.hashnode.dev" onClick={toggleClass}>
+            <a href="https://mhsh.hashnode.dev" onClick={toggleClass}>
               Blog
             </a>
           </li>
