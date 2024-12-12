@@ -10,13 +10,14 @@ import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.png";
 import projectImage6 from "./assets/projects/project6.png"; 
 import projectImage7 from "./assets/projects/project7.png";
+import projectImage8 from "./assets/projects/project8.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Mahesh",
   tagline: "I turn ideas into real life products.",
   img: profile,
-  about: `Mahesh is an open-source contributor and DevOps enthusiast with expertise in Java, Golang, Microservices, and cloud-native tools. He’s active in the open-source community, shares insights on his blog, and excels in Data Structures and Algorithms. With experience in Developer Advocacy and Software Engineering, he’s seeking roles as a Software Engineer, Developer Advocate, or DevOps Engineer.`,
+  about: `Mahesh is an open-source contributor and DevOps enthusiast skilled in Java, Golang, and cloud-native tools. He seeks roles in Software Engineering.`,
 };
 
 // Enter your Social Media URLs here
@@ -29,6 +30,13 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [
+  {
+    Position: "Software Development Engineer",
+    Company: `Immersive Engineering`,
+    Location: "Remote",
+    Type: "Full time",
+    Duration: "Nov 2024 - Present",
+  },
   {
     Position: "Intern",
     Company: `Linux Foundation Mentorship - OpenKruise`,
@@ -86,6 +94,14 @@ export const eduDetails = [
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Starta",
+    image: projectImage8,
+    description: `Starts is a platfrom where you can create your saas application within a month.`,
+    techstack: "NextJs , Typescript, TailwindCSS",
+    previewLink: "https://startaapp.sbs/",  
+    githubLink: "https://github.com/maheshkasabe/",
+  },
   {
     title: "SaasLauncher",
     image: projectImage1,
